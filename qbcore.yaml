@@ -62,6 +62,16 @@ tasks:
     src: https://github.com/qbcore-framework/mhacking
 
   - action: download_github
+    dest: ./resources/[standalone]/mdt
+    ref: master
+    src: https://github.com/lunatrik/mdt
+
+  - action: download_github
+    dest: ./resources/[standalone]/cosmo_hud
+    ref: main
+    src: https://github.com/lunatrik/cosmo_hud
+
+  - action: download_github
     dest: ./resources/[standalone]/connectqueue
     ref: master
     src: https://github.com/qbcore-framework/connectqueue
