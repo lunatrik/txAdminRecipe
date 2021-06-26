@@ -7,7 +7,7 @@ tasks:
   # server.cfg and logo
 
   - action: download_github
-    src: https://github.com/qbcore-framework/txAdminRecipe
+    src: https://github.com/lunatrik/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
     
@@ -118,7 +118,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-core
     ref: main
-    src: https://github.com/qbcore-framework/qb-core
+    src: https://github.com/lunatrik/qb-core
     
   - action: download_github
     dest: ./resources/[qb]/qb-adminmenu
@@ -208,7 +208,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-garages
     ref: main
-    src: https://github.com/qbcore-framework/qb-garages
+    src: https://github.com/lunatrik/qb-garages
 
   - action: download_github
     dest: ./resources/[qb]/qb-ambulancejob
@@ -468,7 +468,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-drugs
     ref: main
-    src: https://github.com/qbcore-framework/qb-drugs
+    src: https://github.com/lunatrik/qb-drugs
 
   - action: download_github
     dest: ./resources/[qb]/qb-builderjob
