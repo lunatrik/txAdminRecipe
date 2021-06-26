@@ -63,7 +63,7 @@ tasks:
 
   - action: download_github
     dest: ./resources/[standalone]/mdt
-    ref: master
+    ref: main
     src: https://github.com/lunatrik/mdt
 
   - action: download_github
