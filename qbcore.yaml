@@ -173,7 +173,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-atms
     ref: main
-    src: https://github.com/qbcore-framework/qb-atms
+    src: https://github.com/lunatrik/qb-atms
 
   - action: download_github
     dest: ./resources/[qb]/qb-ifruitstore
